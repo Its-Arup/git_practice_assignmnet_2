@@ -5,13 +5,15 @@ let checkPrime = (num) =>{
             factor++
         }
     }
-    if(factor==2){
-        return true;
-    }else{
-        return false;
-    }
+
+if(factor==2){
+    return true;
+}else{
+    return false;
 }
 
 let result = checkPrime(17);
 console.log(result);
+
+console.log(checkPrime(11));
 
