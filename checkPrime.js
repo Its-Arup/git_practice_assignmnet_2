@@ -5,11 +5,13 @@ let checkPrime = (num) =>{
             factor++
         }
     }
-if(factor==1){
+if(factor==2){
     return true;
 }else{
     return false;
 }
 
 }
+
+console.log(checkPrime(11));
 
